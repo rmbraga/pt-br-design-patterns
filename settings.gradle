@@ -1,0 +1,4 @@
+rootProject.name = 'pt-br_design_patterns'
+
+include ":adapter"
+include ":builder"

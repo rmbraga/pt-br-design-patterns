@@ -17,13 +17,13 @@ public class FluentBuilderCarro {
      * tenha pelo menos dois atributos
      */
     public FluentBuilderCarro(Montadora montadora, Carroceria carroceria) {
-        validarSeVazioOuEmBranco(montadora, carroceria);
+        validarSeNulo(montadora, carroceria);
 
         this.montadora = montadora;
         this.carroceria = carroceria;
     }
 
-    private void validarSeVazioOuEmBranco(Montadora montadora, Carroceria carroceria) {
+    private void validarSeNulo(Montadora montadora, Carroceria carroceria) {
         if (montadora == null || carroceria == null) {
             throw new IllegalArgumentException("Montadora e Carroceria não podem ser nulos ou estar em branco!");
         }

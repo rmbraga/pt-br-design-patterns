@@ -41,11 +41,24 @@ public class Carro {
 
     @Override
     public String toString() {
-        return "Carro:\n" +
-                "Montadora = " + montadora +
-                "\nCarroceria = " + carroceria +
-                "\nCor = " + cor +
-                "\nNumero de lugares = " + numeroDeLugares +
-                "\nAno = " + ano + '\n' + '\n';
+        StringBuilder stringBuilder = new StringBuilder();
+
+        stringBuilder.append("Carro: \n")
+                .append("Montadora: " + montadora)
+                .append("\nCarroceria: " + carroceria);
+
+        if (ano != 0) {
+            stringBuilder.append("\nAno: " + ano);
+        }
+
+        if (cor != null) {
+            stringBuilder.append("\nCor: " + cor);
+        }
+
+        if (numeroDeLugares != 0) {
+            stringBuilder.append("\nNumero de lugares: " + numeroDeLugares + "\n \n");
+        }
+
+        return stringBuilder.toString();
     }
 }

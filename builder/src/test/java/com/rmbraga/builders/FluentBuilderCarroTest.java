@@ -41,5 +41,4 @@ class FluentBuilderCarroTest {
         assertEquals(carro.getAno(), ano);
         assertEquals(carro.getNumeroDeLugares(), numLugares);
     }
-
 }

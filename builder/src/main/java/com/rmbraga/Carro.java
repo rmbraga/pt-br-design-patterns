@@ -45,7 +45,7 @@ public class Carro {
                 "Montadora = " + montadora +
                 "\nCarroceria = " + carroceria +
                 "\nCor = " + cor +
-                "\nNúmero de lugares = " + numeroDeLugares +
+                "\nNumero de lugares = " + numeroDeLugares +
                 "\nAno = " + ano + '\n' + '\n';
     }
 }

@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
  */
 public class Tests {
     @Test
-    public void teste() {
+    public void aplicacaoPrincipalTest() {
         Aplicacao.main(new String[] {});
     }
 }

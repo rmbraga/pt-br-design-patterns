@@ -18,8 +18,8 @@ Os 3 tipos de padrões mais comuns são: de criação, estruturais e de comporta
 [Padrões de Comportamento](#padrões-de-comportamento)
 
 
-## Padrões de Criação
-Em engenharia de software, padrões criacionais são padrões que lidam com mecanismos para a criação de objetos, tentando criá-los de uma maneira que seja adequada para a situação. A forma básica de criação de objetos pode resultar em problemas de design de software ou adicionar complexidade para o mesmo. Padrões de criação solucionam este problema controlando como estes objetos são criados.
+## Padrões de Criação (Creational)
+Em engenharia de software, padrões criacionais são padrões que lidam com mecanismos para a criação de objetos, tentando criá-los de uma maneira que seja adequada para a situação. A forma básica de criação de objetos pode resultar em problemas de design do software ou adicionar complexidade para o mesmo. Padrões de criação solucionam este problema controlando como estes objetos são criados.
 
 - Abstract Factory
 - Builder
@@ -30,8 +30,8 @@ Em engenharia de software, padrões criacionais são padrões que lidam com meca
 
 
 
-## Padrões Estruturais
-Os padrões estruturais se preocupam com a forma como classes e objetos são compostos para formar estruturas maiores. Os de classes utilizam a herança para compor interfaces ou implementações, enquanto os de objeto descrevem maneiras de compor objetos para obter novas funcionalidades. A flexibilidade obtida pela composição de objetos provém da capacidade de mudar a composição em tempo de execução, o que não é possível com a composição estática (herança de classes).
+## Padrões Estruturais (Structural)
+Os padrões estruturais preocupam-se com a maneira como classes e objetos são compostos para formar estruturas maiores. Padrões de classes utilizam a herança para compor interfaces ou implementações, enquanto padrões de objeto descrevem maneiras de compor objetos para obter novas funcionalidades. A flexibilidade obtida pela composição de objetos provém da capacidade de mudar a composição em tempo de execução, o que não é possível com a composição estática (herança de classes).
 
 - Adapter
 - Bridge
@@ -44,8 +44,8 @@ Os padrões estruturais se preocupam com a forma como classes e objetos são com
 - Proxy
 
 
-## Padrões de Comportamento
-Os padrões de comportamento se concentram nos algoritmos e atribuições de responsabilidades entre os objetos. Eles não descrevem apenas padrões de objetos ou de classes, mas também os padrões de comunicação entre os objetos. Os padrões comportamentais de classes utilizam a herança para distribuir o comportamento entre classes, e os padrões de comportamento de objeto utilizam a composição de objetos em contrapartida à herança.
+## Padrões de Comportamento (Behavioral)
+Os padrões de comportamento concentram-se nos algoritmos e atribuições de responsabilidades entre os objetos. Eles não descrevem apenas padrões de objetos ou de classes, mas também os padrões de comunicação entre os objetos. Os padrões comportamentais de classes utilizam a herança para distribuir o comportamento entre classes, e os padrões de comportamento de objeto utilizam a composição de objetos em contrapartida à herança.
 
 - Chain of Responsibility
 - Command

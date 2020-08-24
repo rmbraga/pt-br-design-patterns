@@ -11,11 +11,11 @@ Na área de engenharia de software, temos a seguinte definição sobre *Design P
 ## Tipos de padrões
 Os 3 tipos de padrões mais comuns são: de criação, estruturais e de comportamento. Para mais explicações, acesse [:link:](https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software#Padr%C3%B5es_GoF_('Gang_of_Four')) para Wikipedia.
 
-[Padrões de Criação](#padrões-de-criação)
+[Padrões de Criação](#padrões-de-criação-(creational))
 
-[Padrões Estruturais](#padrões-estruturais)
+[Padrões Estruturais](#padrões-estruturais-(structural))
 
-[Padrões de Comportamento](#padrões-de-comportamento)
+[Padrões de Comportamento](#padrões-de-comportamento-(behavioral))
 
 
 ## Padrões de Criação (Creational)

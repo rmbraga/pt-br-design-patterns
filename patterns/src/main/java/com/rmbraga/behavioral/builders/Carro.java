@@ -1,8 +1,8 @@
-package com.rmbraga;
+package com.rmbraga.behavioral.builders;
 
-import com.rmbraga.enums.Carroceria;
-import com.rmbraga.enums.Cor;
-import com.rmbraga.enums.Montadora;
+import com.rmbraga.behavioral.enums.Carroceria;
+import com.rmbraga.behavioral.enums.Cor;
+import com.rmbraga.behavioral.enums.Montadora;
 
 public class Carro {
     private Montadora montadora;

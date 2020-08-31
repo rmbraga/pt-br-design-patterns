@@ -1,4 +1,4 @@
-package com.rmbraga.enums;
+package com.rmbraga.behavioral.enums;
 
 public enum Cor {
     VERMELHO("VERMELHO"),

@@ -1,3 +1,3 @@
 rootProject.name = 'pt-br_design_patterns'
 
-include ":builder"
+include ":patterns"

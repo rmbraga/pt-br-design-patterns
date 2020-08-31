@@ -1,6 +1,5 @@
-package com.rmbraga.builders;
+package com.rmbraga.behavioral.builders;
 
-import com.rmbraga.Aplicacao;
 import org.junit.jupiter.api.Test;
 
 /**

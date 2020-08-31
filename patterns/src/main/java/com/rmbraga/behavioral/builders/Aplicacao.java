@@ -1,14 +1,11 @@
-package com.rmbraga;
+package com.rmbraga.behavioral.builders;
 
-import com.rmbraga.builders.BuilderCarro;
-import com.rmbraga.builders.FluentBuilderCarro;
-
-import static com.rmbraga.enums.Carroceria.HATCHBACK;
-import static com.rmbraga.enums.Carroceria.SEDA;
-import static com.rmbraga.enums.Cor.PRETO;
-import static com.rmbraga.enums.Cor.VERMELHO;
-import static com.rmbraga.enums.Montadora.FORD;
-import static com.rmbraga.enums.Montadora.MERCEDES;
+import static com.rmbraga.behavioral.enums.Carroceria.HATCHBACK;
+import static com.rmbraga.behavioral.enums.Carroceria.SEDA;
+import static com.rmbraga.behavioral.enums.Cor.PRETO;
+import static com.rmbraga.behavioral.enums.Cor.VERMELHO;
+import static com.rmbraga.behavioral.enums.Montadora.FORD;
+import static com.rmbraga.behavioral.enums.Montadora.MERCEDES;
 
 public class Aplicacao {
     public static void main(String[] args) {

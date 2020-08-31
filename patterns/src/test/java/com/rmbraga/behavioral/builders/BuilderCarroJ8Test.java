@@ -1,10 +1,10 @@
-package com.rmbraga.builders;
+package com.rmbraga.behavioral.builders;
 
 import org.junit.jupiter.api.Test;
 
-import static com.rmbraga.enums.Carroceria.SEDA;
-import static com.rmbraga.enums.Cor.PRATA;
-import static com.rmbraga.enums.Montadora.GM;
+import static com.rmbraga.behavioral.enums.Carroceria.SEDA;
+import static com.rmbraga.behavioral.enums.Cor.PRATA;
+import static com.rmbraga.behavioral.enums.Montadora.GM;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 

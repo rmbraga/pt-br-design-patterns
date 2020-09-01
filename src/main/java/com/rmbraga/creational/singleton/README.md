@@ -3,7 +3,7 @@
 ---
 Extraído da definição do GoF (Gang of Four)*:
 
-O padrão Singleton garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a essa classe. 
+O padrão Singleton garante que uma classe tenha apenas uma instância e forneça um ponto global de acesso a essa classe. 
 Ele garante que todos os objetos que usam uma instância dessa classe usem a mesma instância.
 
 

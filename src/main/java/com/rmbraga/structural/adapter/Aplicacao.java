@@ -12,7 +12,7 @@ public class Aplicacao {
     }
 
     public static void testTempInfo(TemperaturaInfo tempInfo) {
-        tempInfo.setarTemperaturaCelcius(0);
+        tempInfo.setarTemperaturaCelcius(17);
         System.out.println("Temperatura em Celcius    : " + tempInfo.retornarTemperaturaCelcius());
         System.out.println("Temperatura em Fahrenheit : " + tempInfo.retornarTemperaturaFahrenheit());
         tempInfo.setarTemperaturaFahrenheit(87);

@@ -1,4 +1,4 @@
-package com.rmbraga.behavioral.builders;
+package com.rmbraga.creational.builders;
 
 import org.junit.jupiter.api.Test;
 

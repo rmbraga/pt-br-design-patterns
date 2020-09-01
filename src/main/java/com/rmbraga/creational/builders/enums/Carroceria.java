@@ -1,4 +1,4 @@
-package com.rmbraga.behavioral.builders.enums;
+package com.rmbraga.creational.builders.enums;
 
 public enum Carroceria {
     HATCHBACK("HATCHBACK"),

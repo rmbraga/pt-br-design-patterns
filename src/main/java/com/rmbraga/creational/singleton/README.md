@@ -28,4 +28,4 @@ Há críticas ao uso do padrão singleton, pois alguns o consideram um antipadr�
 restrições desnecessárias em situações em que uma única instância de uma classe não é realmente necessária e introduz o 
 estado global em um aplicativo.
 
-_*Reference: [GoF - Gang Of Four - Design Patterns]_(https://www.gofpatterns.com/creational-patterns/creational-patterns/singleton-pattern.php)
+*Reference:* [GoF - Gang Of Four - Design Patterns](https://www.gofpatterns.com/creational-patterns/creational-patterns/singleton-pattern.php)

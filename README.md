@@ -26,14 +26,14 @@ Em engenharia de software, padrões criacionais são padrões que lidam com meca
 - Factory Method
 - Object pool
 - Prototype
-- Singleton
+- [Singleton](https://github.com/rmbraga/pt-br-design-patterns/tree/master/src/main/java/com/rmbraga/creational/singleton)
 
 
 
 ## Padrões Estruturais (Structural)
 Os padrões estruturais preocupam-se com a maneira como classes e objetos são compostos para formar estruturas maiores. Padrões de classes utilizam a herança para compor interfaces ou implementações, enquanto padrões de objeto descrevem maneiras de compor objetos para obter novas funcionalidades. A flexibilidade obtida pela composição de objetos provém da capacidade de mudar a composição em tempo de execução, o que não é possível com a composição estática (herança de classes).
 
-- Adapter
+- [Adapter](https://github.com/rmbraga/pt-br-design-patterns/tree/master/src/main/java/com/rmbraga/structural/adapter)
 - Bridge
 - Business Delegate
 - [Composite](https://github.com/rmbraga/pt-br-design-patterns/tree/master/src/main/java/com/rmbraga/structural/composite)

@@ -22,7 +22,7 @@ Os 3 tipos de padrões mais comuns são: de criação, estruturais e de comporta
 Em engenharia de software, padrões criacionais são padrões que lidam com mecanismos para a criação de objetos, tentando criá-los de uma maneira que seja adequada para a situação. A forma básica de criação de objetos pode resultar em problemas de design do software ou adicionar complexidade para o mesmo. Padrões de criação solucionam este problema controlando como estes objetos são criados.
 
 - Abstract Factory
-- Builder
+- [Builder](https://github.com/rmbraga/pt-br-design-patterns/tree/master/src/main/java/com/rmbraga/behavioral/builders)
 - Factory Method
 - Object pool
 - Prototype
@@ -36,7 +36,7 @@ Os padrões estruturais preocupam-se com a maneira como classes e objetos são c
 - Adapter
 - Bridge
 - Business Delegate
-- Composite
+- [Composite](https://github.com/rmbraga/pt-br-design-patterns/tree/master/src/main/java/com/rmbraga/structural/composite)
 - Decorator
 - Façade (ou Facade)
 - Flyweight

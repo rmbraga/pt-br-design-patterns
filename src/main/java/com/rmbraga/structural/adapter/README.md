@@ -1,5 +1,5 @@
-### Descrição do Padrão Adaptador
-
+## Adaptador / Adapter
+---
 O padrão adaptador(adapter) age como intermediário entre duas classes, convertendo a interface de uma para que seja utilizada pela outra.
 Isto possibilita que classes com interfaces incompatíveis se comuniquem.
 O padrão adaptador(adapter) implementa uma interface conhecida para ambos clientes e provê acesso a uma instância de uma classe não conhecida dos seus clientes.
@@ -23,4 +23,6 @@ Por exemplo:
 Caso múltiplos valores booleanos são armazenados como um inteiro singular (e.g. sinal/flag), o adaptador será responsável por extrair e retornar o valor boolean apropriado dos valores inteiros.
 Outro exemplo muito utilizado é a transformação de datas (e.g AAAAMMDD para DD/MM/AAAA). 
 
+
+---
 _*Referência*_ [GoF - Gang Of Four](https://www.gofpatterns.com/structural-design-patterns/structural-patterns/adapter-pattern.php)

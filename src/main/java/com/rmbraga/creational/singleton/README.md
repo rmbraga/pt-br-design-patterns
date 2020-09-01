@@ -3,7 +3,7 @@
 ---
 Extraído da definição do GoF (Gang of Four)*:
 
-O padrão Singleton garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a essa classe. 
+O padrão Singleton garante que uma classe tenha apenas uma instância e forneça um ponto global de acesso a essa classe. 
 Ele garante que todos os objetos que usam uma instância dessa classe usem a mesma instância.
 
 
@@ -24,7 +24,7 @@ Isso é útil quando exatamente um objeto é necessário para coordenar ações 
 O conceito às vezes é generalizado para sistemas que operam com mais eficiência quando existe apenas um objeto, ou que 
 restringem a instanciação a um certo número de objetos.
 O termo vem do conceito matemático de um singleton.
-Há críticas ao uso do padrão singleton, pois alguns o consideram um antipadrão, julgando que é usado em excesso, introduz
+Há críticas ao uso do padrão singleton, pois alguns o consideram um antipadrão, julgando que quando é usado em excesso, introduz
 restrições desnecessárias em situações em que uma única instância de uma classe não é realmente necessária e introduz o 
 estado global em um aplicativo.
 

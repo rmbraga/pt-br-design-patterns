@@ -1,10 +1,10 @@
-package com.rmbraga.behavioral.builders;
+package com.rmbraga.creational.builders;
 
-import com.rmbraga.behavioral.builders.enums.Carroceria;
-import com.rmbraga.behavioral.builders.enums.Cor;
-import com.rmbraga.behavioral.builders.enums.Montadora;
+import com.rmbraga.creational.builders.enums.Carroceria;
+import com.rmbraga.creational.builders.enums.Cor;
+import com.rmbraga.creational.builders.enums.Montadora;
 
-public class BuilderCarro {
+public class FluentBuilderCarro {
     private Montadora montadora;
     private Carroceria carroceria;
     private Cor cor;
@@ -15,7 +15,7 @@ public class BuilderCarro {
      * Criando um construtor para garantir que o nosso carro
      * tenha pelo menos dois atributos
      */
-    public BuilderCarro(Montadora montadora, Carroceria carroceria) {
+    public FluentBuilderCarro(Montadora montadora, Carroceria carroceria) {
         validarSeNulo(montadora, carroceria);
 
         this.montadora = montadora;
@@ -28,25 +28,29 @@ public class BuilderCarro {
         }
     }
 
-
-    public void setMontadora(Montadora montadora) {
+    public FluentBuilderCarro setMontadora(Montadora montadora) {
         this.montadora = montadora;
+        return this;
     }
 
-    public void setCarroceria(Carroceria carroceria) {
+    public FluentBuilderCarro setCarroceria(Carroceria carroceria) {
         this.carroceria = carroceria;
+        return this;
     }
 
-    public void setCor(Cor cor) {
+    public FluentBuilderCarro setCor(Cor cor) {
         this.cor = cor;
+        return this;
     }
 
-    public void setNumeroDeLugares(int numeroDeLugares) {
+    public FluentBuilderCarro setNumeroDeLugares(int numeroDeLugares) {
         this.numeroDeLugares = numeroDeLugares;
+        return this;
     }
 
-    public void setAno(int ano) {
+    public FluentBuilderCarro setAno(int ano) {
         this.ano = ano;
+        return this;
     }
 
     public Carro buildCarro() {

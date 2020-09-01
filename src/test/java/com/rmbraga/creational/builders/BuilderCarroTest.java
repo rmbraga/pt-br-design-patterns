@@ -1,12 +1,12 @@
-package com.rmbraga.behavioral.builders;
+package com.rmbraga.creational.builders;
 
 import org.junit.jupiter.api.Test;
 
-import static com.rmbraga.behavioral.builders.enums.Carroceria.CONVERSIVEL;
-import static com.rmbraga.behavioral.builders.enums.Carroceria.SUV;
-import static com.rmbraga.behavioral.builders.enums.Cor.PRATA;
-import static com.rmbraga.behavioral.builders.enums.Montadora.AUDI;
-import static com.rmbraga.behavioral.builders.enums.Montadora.FORD;
+import static com.rmbraga.creational.builders.enums.Carroceria.CONVERSIVEL;
+import static com.rmbraga.creational.builders.enums.Carroceria.SUV;
+import static com.rmbraga.creational.builders.enums.Cor.PRATA;
+import static com.rmbraga.creational.builders.enums.Montadora.AUDI;
+import static com.rmbraga.creational.builders.enums.Montadora.FORD;
 import static org.junit.jupiter.api.Assertions.*;
 
 class BuilderCarroTest {

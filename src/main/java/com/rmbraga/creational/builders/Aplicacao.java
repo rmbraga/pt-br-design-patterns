@@ -1,9 +1,9 @@
-package com.rmbraga.behavioral.builders;
+package com.rmbraga.creational.builders;
 
-import static com.rmbraga.behavioral.builders.enums.Carroceria.HATCHBACK;
-import static com.rmbraga.behavioral.builders.enums.Carroceria.SEDA;
-import static com.rmbraga.behavioral.builders.enums.Cor.*;
-import static com.rmbraga.behavioral.builders.enums.Montadora.*;
+import static com.rmbraga.creational.builders.enums.Carroceria.HATCHBACK;
+import static com.rmbraga.creational.builders.enums.Carroceria.SEDA;
+import static com.rmbraga.creational.builders.enums.Cor.*;
+import static com.rmbraga.creational.builders.enums.Montadora.*;
 
 public class Aplicacao {
     public static void main(String[] args) {

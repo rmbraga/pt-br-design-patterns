@@ -12,8 +12,4 @@ public class Singleton {
     public static Singleton getInstance() {
         return instance;
     }
-
-//    public void exibirNome() {
-//        System.out.println("Nome: " + this.nome);
-//    }
 }

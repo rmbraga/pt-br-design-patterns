@@ -46,7 +46,7 @@ public class BancoFacade {
     }
 
     public double verificarSaldo() {
-        if(!verificarAcessoCliente()) {
+        if(verificarAcessoCliente()) {
             System.out.println("Saldo Disponível: " + validadorSaldo.retornarSaldo());
             return validadorSaldo.retornarSaldo();
         } else {

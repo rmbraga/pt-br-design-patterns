@@ -49,6 +49,6 @@ public class BancoFacadeTest {
         bancoFacade.efetuarDeposito(50);
         bancoFacade.efetuarSaque(100);
 
-        assertEquals(bancoFacade.verificarSaldo(), 250.00);
+        assertEquals(bancoFacade.verificarSaldo(), 200.00);
     }
 }

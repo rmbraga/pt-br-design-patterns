@@ -38,7 +38,7 @@ Os padrões estruturais preocupam-se com a maneira como classes e objetos são c
 - Business Delegate
 - [Composite](https://github.com/rmbraga/pt-br-design-patterns/tree/master/src/main/java/com/rmbraga/structural/composite)
 - [Decorator](https://github.com/rmbraga/pt-br-design-patterns/tree/master/src/main/java/com/rmbraga/structural/decorator)
-- Façade (ou Facade)
+- [Facade](https://github.com/rmbraga/pt-br-design-patterns/tree/master/src/main/java/com/rmbraga/structural/facade)
 - Flyweight
 - Private class data
 - [Proxy](https://github.com/rmbraga/pt-br-design-patterns/tree/master/src/main/java/com/rmbraga/structural/proxy)

@@ -32,4 +32,4 @@ A composição consiste de: composto e folha. _e.g. composite & leaf_
 1. Quando precisar representar hierarquia de objetos
 2. Quando a representação tanto de uma estrutura composta de objetos quanto a de objetos singulares tenha de ser feita de maneira uniforme.
 
-_*Reference: [GoF - Gang Of Four - Design Patterns]_(https://www.gofpatterns.com/structural-design-patterns/structural-patterns/compositePattern-code.php)
+_*Reference*: [GoF - Gang Of Four - Design Patterns](https://www.gofpatterns.com/structural-design-patterns/structural-patterns/compositePattern-code.php)_

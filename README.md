@@ -41,7 +41,7 @@ Os padrões estruturais preocupam-se com a maneira como classes e objetos são c
 - Façade (ou Facade)
 - Flyweight
 - Private class data
-- Proxy
+- [Proxy](https://github.com/rmbraga/pt-br-design-patterns/tree/master/src/main/java/com/rmbraga/structural/proxy)
 
 
 ## Padrões de Comportamento (Behavioral)

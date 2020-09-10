@@ -4,7 +4,7 @@ public class Aplicacao {
     private final FabricanteVideogame fabricanteVideogame;
 
     /**
-     * Aqui vamos estar criando uma instancia da Aplicacao, que vai usar um FabricanteVideogame
+     * Criaremos aqui uma instancia da Aplicacao que usara um FabricanteVideogame
      * para fabricar os nossos consoles.
      * A nossa Aplicacao não sabe qual classe concreta estaremos usando para criar nossos consoles.
      * @param fabricanteVideogame

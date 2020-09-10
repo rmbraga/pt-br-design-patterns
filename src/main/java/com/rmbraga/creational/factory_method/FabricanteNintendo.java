@@ -9,7 +9,7 @@ public class FabricanteNintendo implements FabricanteVideogame {
     private static final Map<TipoConsole, NintentoConsole> NINTENDO_CONSOLES;
 
     /**
-     * Isso é um bloco de inicialização estática. Como se fosse uma versão estática de um construtor.
+     * Isto é um bloco de inicialização estática, como uma versão estática de um construtor.
      * Inicializadores estáticos são inicializados quando a classe é carregada.
      */
     static {
